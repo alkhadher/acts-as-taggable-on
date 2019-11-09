@@ -18,9 +18,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.required_ruby_version     = '>= 2.3.6'
 
-  if File.exist?('UPGRADING.md')
-    gem.post_install_message = File.read('UPGRADING.md')
-  end
+  # if File.exist?('UPGRADING.md')
+  #   gem.post_install_message = File.read('UPGRADING.md')
+  # end
 
   gem.add_runtime_dependency 'activerecord', '>= 6.0', '< 6.1'
 
